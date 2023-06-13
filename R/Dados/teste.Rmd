@@ -1,0 +1,20 @@
+---
+title: "markdown"
+author: "Douglas Carrega"
+date: "2023-05-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Cabeçalho 1
+
+**Negrito**, *itálico*, ~~taxado~~
+
+$\alpha$, $\beta$
+
+\[frac{dV}{dt}=$\alpha$.t]
+
+`r fontawesome::fa("triangle-exclamation", fill = "orange")
